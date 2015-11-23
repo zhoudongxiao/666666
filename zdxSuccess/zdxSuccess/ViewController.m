@@ -13,7 +13,10 @@
 @end
 
 @implementation ViewController
-
+-(void)sayHelloToSSP{
+    
+    NSLog(@"Hello SSP");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
